@@ -41,7 +41,7 @@ public class MailSenderService {
                 "\n" +
                 "Activate user: link '" +
                 userDomain +
-                "admin/activate/" +
+                "/admin/activate/" +
                 user.getId() +
                 "'";
 

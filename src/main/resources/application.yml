@@ -16,10 +16,6 @@ spring:
             enable: false
           ssl:
             trust: smtp.gmail.com
-  datasource:
-    url: jdbc:postgresql://localhost:5432/n-mail-service
-    username: postgres
-    password: mitrandir
 
 jwt:
   key: Nikon1234
@@ -31,4 +27,3 @@ service:
   user-domain: http://localhost:8081
 server:
   port: 8083
-  domain: http://localhost:8083/
